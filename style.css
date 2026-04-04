@@ -40,3 +40,11 @@ header {
   padding: 1rem;
   text-align: center;
 }
+.nav-link {
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #00bfff;
+  transform: scale(1.1);
+}
