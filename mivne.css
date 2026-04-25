@@ -1,0 +1,30 @@
+body {
+    display: grid;
+    grid-template-areas: 
+        "rosh"
+        "merkaz"
+        "sof";
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    margin: 0;
+    gap: 1.5rem;
+    background-color: #222; 
+}
+
+header { 
+    grid-area: rosh; 
+}
+
+main { 
+    grid-area: merkaz; 
+    background-color: #f5f5f5; 
+    padding: 2rem; 
+}
+
+footer { 
+    grid-area: sof; 
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
